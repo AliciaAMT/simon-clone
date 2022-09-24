@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nasty_fabric.png)
+background-color: black;
 }
 
 .toggle {
@@ -25,6 +25,7 @@ body {
   font-family: 'Original Surfer', cursive;
   margin-left: 83px;
   margin-top: 197px;
+  color: silver;
 }
 
 .text1 {
@@ -32,6 +33,7 @@ body {
   font-family: 'Original Surfer', cursive;
   margin-left: 19px;
   margin-top: 142px;
+  color: silver;
 }
 
 .text1 span:last-child {
@@ -44,6 +46,7 @@ body {
   font-size: 40px;
   margin-left: 35px;
   margin-top: 40px;
+  color: silver;
 }
 
 #turn {
@@ -62,16 +65,16 @@ body {
 }
 
 #outer-circle {
-  background: #385a94;
+  background: #26282b;
   border-radius: 50%;
   height: 500px;
   width: 500px;
   position: relative;
   border-style: solid;
-  border-width: 10px;
+  border-width: 30px;
   margin: auto;
   margin-top: 60px;
-  box-shadow: 8px 8px 15px 5px #888888;
+  box-shadow: -5px -5px 15px 12px #181818;
 }
 
 #topleft {
@@ -148,7 +151,7 @@ body {
 
 #inner-circle {
   position: absolute;
-  background: grey;
+  background: rgb(49, 49, 49);
   border-radius: 50%;
   height: 250px;
   width: 250px;

@@ -57,6 +57,7 @@ function play() {
   for (var i = 0; i < 20; i++) {
     order.push(Math.floor(Math.random() * 4) + 1);
   }
+  console.log(order);
   compTurn = true;
 
   intervalId = setInterval(gameTurn, 800);
@@ -190,7 +191,7 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
 
-  if (playerOrder.length == 3 && good) {
+  if (playerOrder.length == 20 && good) {
     winGame();
   }
 
