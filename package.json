@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "web-dev-server": "^3.0.27"
+  }
+}
