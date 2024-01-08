@@ -1,5 +1,27 @@
 {
+  "name": "simon-clone",
+  "version": "1.0.0",
+  "description": "Made with freeCodeCamp.org",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaAMT/simon-clone.git"
+  },
+  "keywords": [
+    "arcade"
+  ],
+  "author": "Alicia Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliciaAMT/simon-clone/issues"
+  },
+  "homepage": "https://github.com/AliciaAMT/simon-clone#readme",
   "dependencies": {
-    "web-dev-server": "^3.0.27"
+    "firebase": "^10.7.1",
+    "http-server": "^14.1.1"
   }
 }

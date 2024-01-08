@@ -8,7 +8,29 @@
 
   <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
-
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDbC3rCDt9z9mVyyBTk2dM3KYi5ZYNwWnQ",
+      authDomain: "simon-clone-hd.firebaseapp.com",
+      projectId: "simon-clone-hd",
+      storageBucket: "simon-clone-hd.appspot.com",
+      messagingSenderId: "543168215884",
+      appId: "1:543168215884:web:a891ea7385d0ba2b0b2de9",
+      measurementId: "G-6TSY8QV09T"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <audio id="clip1">
   	<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
   </audio>
